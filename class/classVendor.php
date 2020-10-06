@@ -1,10 +1,12 @@
 <?php
+require_once "classPerson.php";
+
 class Vendor extends Personne {
 
   
 
     public function sell($customer,$product){
-        echo"<p>".$this->name." vend du ". $product." à ".$customer->name."</p>";
+        echo"le vendeur ".$this->show()." vend du ". $product." à ".$customer->show()."</br>";
     }
 
 

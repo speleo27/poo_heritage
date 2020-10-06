@@ -6,6 +6,9 @@ class Personne{
      $this->name = $name;
 
  }
+ public function show(){
+    return $this->name;
+ }
  
      
  
