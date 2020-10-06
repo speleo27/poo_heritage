@@ -6,7 +6,7 @@ class Personne{
      $this->name = $name;
 
  }
- public function show(){
+ public function get_name(){
     return $this->name;
  }
  
