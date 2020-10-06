@@ -1,6 +1,6 @@
 <?php
 class Personne{
- protected $name;
+private $name;
 
  public function __construct($name){
      $this->name = $name;
